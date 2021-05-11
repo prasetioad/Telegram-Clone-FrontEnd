@@ -1,6 +1,6 @@
 # Telegram chat clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplikasi chat realtime clone dari  telegram yang dibuat menggunakan React js , express js , sequelize dan socket io.
 
 ## Available Scripts
 
