@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+input:focus{
+    outline: none;
+}
+
+.loginContainer{
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #232323;
+    height: 100vh;
+    
+}
+.login-container{
+    margin-top: 5vh;
+    height:90vmin;
+    width: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 20px rgba(126, 152, 223, 0.05);
+    border-radius: 30px;
+}
+.loginCard{
+    padding: 30px 50px; 
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.165px;
+    color: #7E98DF;
+    margin-bottom: 25px;
+}
+.login p{
+    margin: 0 !important;
+}
+.login-input{
+    margin-top: 25px;
+}
+.login-input p{
+    margin: 0 !important;
+}
+.login-input span{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #848484;
+    opacity: 0.75;
+}
+
+.login-input-item { 
+    border: none;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.login-input input{ 
+    border: none;
+    width: 340px;
+    height:34px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.loginForgot{
+    margin: 25px 0;
+    text-align: right;
+}
+.loginLine{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.line{
+    width: 100px;
+    margin-bottom: 13px;
+}
+.line hr{
+    height: 1px;
+}
+
+
+.log-button button{
+    background: #FFFFFF !important;
+    border: 1px solid #7E98DF !important;
+    box-sizing: border-box !important;
+    border-radius: 70px !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #7E98DF !important;
+    margin-top: 15px !important;
+}
+.logDontHave{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
