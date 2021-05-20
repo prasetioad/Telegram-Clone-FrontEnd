@@ -55,7 +55,7 @@ npm start
 * https://github.com/prasetioad/Telegram-Clone-BackEnd
 
 ## Live Demo
-* https://zwallet-sigma.vercel.app/login
+* https://stupefied-brown-bd269c.netlify.app/login
 
 ## Author
 * [@prasetioad](https://github.com/prasetioad)
