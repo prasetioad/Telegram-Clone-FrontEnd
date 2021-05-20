@@ -2,19 +2,40 @@
 
 Aplikasi chat realtime clone dari  telegram yang dibuat menggunakan React js , express js , sequelize dan socket io.
 
-## Available Scripts
+## Built with
 
-In the project directory, you can run:
+* [NextJs](https://nextjs.org/)
+* [ExpressJs](https://expressjs.com/)
+* [socket io](https://socket.io/)
 
-### `npm start`
+## Get Started
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is an example of how to list things you need to use the software and how to install them.
+* [NodeJs](https://nodejs.org/en/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-### You can found here
+## Instalation
+1. Clone the repo
 
+```
+git clone https://github.com/prasetioad/Telegram-Clone-FrontEnd.git
+
+```
+2. Install NPM Packages 
+```
+npm install
+```
+3. Add .env file at root folder project, and add following
+```
+#============= DB HOST==============
+
+REACT_APP_DB_HOST = http://localhost:8080/v1
+REACT_APP_SOCKET_HOST = http://localhost:8080
+```
+4. run
+``` 
+npm start 
+```
 ### Register page
 ![register](https://user-images.githubusercontent.com/66661143/117747508-825d5700-b238-11eb-876c-8c4547f5d5ed.jpg)
 ### Login Page
@@ -25,9 +46,18 @@ You will also see any lint errors in the console.
 * Profil Page
 ![Untitled-1-Recovered](https://user-images.githubusercontent.com/66661143/117747510-825d5700-b238-11eb-9b50-3b60944bc01f.jpg)
 
-### Visit here
-* https://stupefied-brown-bd269c.netlify.app/
+## Documentation
 
-### BackEnd 
+### Front End
+* https://github.com/prasetioad/Telegram-Clone-FrontEnd
+
+### Back End
 * https://github.com/prasetioad/Telegram-Clone-BackEnd
+
+## Live Demo
+* https://zwallet-sigma.vercel.app/login
+
+## Author
+* [@prasetioad](https://github.com/prasetioad)
+
 
