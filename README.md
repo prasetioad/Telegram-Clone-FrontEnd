@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Telegram chat clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplikasi chat realtime clone dari  telegram yang dibuat menggunakan React js , express js , sequelize dan socket io.
 
-## Available Scripts
+## Built with
 
-In the project directory, you can run:
+* [NextJs](https://nextjs.org/)
+* [ExpressJs](https://expressjs.com/)
+* [socket io](https://socket.io/)
 
-### `npm start`
+## Get Started
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is an example of how to list things you need to use the software and how to install them.
+* [NodeJs](https://nodejs.org/en/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Instalation
+1. Clone the repo
 
-### `npm test`
+```
+git clone https://github.com/prasetioad/Telegram-Clone-FrontEnd.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+2. Install NPM Packages 
+```
+npm install
+```
+3. Add .env file at root folder project, and add following
+```
+#============= DB HOST==============
 
-### `npm run build`
+REACT_APP_DB_HOST = http://localhost:8080/v1
+REACT_APP_SOCKET_HOST = http://localhost:8080
+```
+4. run
+``` 
+npm start 
+```
+### Register page
+![register](https://user-images.githubusercontent.com/66661143/117747508-825d5700-b238-11eb-876c-8c4547f5d5ed.jpg)
+### Login Page
+![login](https://user-images.githubusercontent.com/66661143/117747501-80939380-b238-11eb-9646-6cba5c93fcb7.png)
+### Home page
+* Notifiacation feature
+![notification](https://user-images.githubusercontent.com/66661143/117747505-81c4c080-b238-11eb-80f8-31cc413aa5c4.jpg)
+* Profil Page
+![Untitled-1-Recovered](https://user-images.githubusercontent.com/66661143/117747510-825d5700-b238-11eb-9b50-3b60944bc01f.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Documentation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Front End
+* https://github.com/prasetioad/Telegram-Clone-FrontEnd
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Back End
+* https://github.com/prasetioad/Telegram-Clone-BackEnd
 
-### `npm run eject`
+## Live Demo
+* https://zwallet-sigma.vercel.app/login
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Author
+* [@prasetioad](https://github.com/prasetioad)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
