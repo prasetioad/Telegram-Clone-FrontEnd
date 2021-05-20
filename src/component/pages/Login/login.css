@@ -14,8 +14,7 @@ input:focus{
     font-size: 14px;
     line-height: 17px;
     color: #232323;
-    height: 100vh;
-    
+    height: 100vh; 
 }
 .login-container{
     margin-top: 5vh;
@@ -114,3 +113,8 @@ input:focus{
     justify-content: center;
     margin-top: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+    
+
+  }

@@ -170,3 +170,12 @@
     border: none;
     text-align: center;
 }
+@media screen and (max-width: 600px) {
+    .profilAvatar img{
+        border-radius: 30px;
+        width: 50px;
+    }
+    .profilImg{
+        margin-top: 20px;
+    }
+}

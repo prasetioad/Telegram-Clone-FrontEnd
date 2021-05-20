@@ -6,6 +6,7 @@ import {BsBookmark, BsFillPersonPlusFill, BsQuestionCircle} from 'react-icons/bs
 import axios from 'axios'
 import io from 'socket.io-client'
 import Profil from '../profil/index'
+import ProfTarget from '../profilTarget/index'
 import { useHistory } from 'react-router'
 import {getProfile} from '../../config/redux/action/userAction'
 import { useSelector } from 'react-redux'
@@ -76,9 +77,13 @@ function Index() {
     },[])
     useEffect(() => {
         if(socket){
+            socket.off('listen')
             socket.on("listen", data=>{
-                setTemporaryChat([...temporaryChat, data])
-                notif(data.sender)
+                if(targetChat.userId == data.userId){
+                    setTemporaryChat([...temporaryChat, data])
+                }else{
+                    notif(data.sender)
+                }
             })
         }
 
@@ -100,15 +105,18 @@ function Index() {
 
     const notif =(sender)=>{
         Swal.fire({
-            text: `satu pesan dari ${sender}`,
             target: '#notif',
             customClass: {
-              container: 'position-absolute'
+                container: 'position-absolute'
             },
             toast: true,
-            position: 'center-left',
+            position: 'top-right',
             timer: 3000,
             timerProgressBar: true,
+            showConfirmButton: false,
+            background:'#7E98DF',
+            text: `satu pesan dari  <span style="color:#FFFFFF">${sender}<span>`,
+            html: `<span style="color:#FFFFFF">satu pesan dari ${sender}<span>`
           })
     }
     const handleSendMsg= async()=>{
@@ -197,18 +205,30 @@ function Index() {
     }
     const handleBackList =(e)=>{
         const target = document.getElementById('mainLeft')
+        const right = document.getElementById('mainRight')
         const home = document.getElementById('homeMain')
         if(window.screen.width <= 600){
-            if(mainRight === true){
-                setMainRight(false)
-                target.style.display ='inline'
-            }else{
+            if(mainRight === false){
                 setMainRight(true)
                 target.style.display = 'none'
+            }else{
+                setMainRight(false)
+                target.style.display = 'inline'
             }
         }
     }
-  
+    const target = document.getElementById('mainLeft')
+    const right = document.getElementById('mainRight')
+    window.addEventListener('resize', ()=>{
+        if(window.screen.width <= 600){
+            setMainRight(false)
+        }else{
+            setMainRight(true)
+        }
+    })
+    
+    console.log(temporaryChat)
+    console.log(targetChat)
     console.log(mainRight);
     return (
         <div className='homeContainer'>
@@ -584,7 +604,12 @@ function Index() {
                                 </div>
                             }
                             <div className="profileContainer">
-
+                                {showUserProfil ?
+                                <div className='profileContainerWrap' id='profileContainer'>
+                                    <ProfTarget me={myProfil} hideProfil={()=>handleShowProfil()} />
+                                </div> :
+                                <div></div>
+                            }
                             </div>
                         </div>
                     }

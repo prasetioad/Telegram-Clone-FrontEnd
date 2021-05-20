@@ -384,14 +384,14 @@ p{
         margin-right:10px;
         color: #7E98DF;
     }
-    .mainLeft{
-        display: none;
+    .mainRight{
+        display: flex;
     }
     .homeMain{
         grid-template-columns: 100%;
     }
-    .chatEmpty button{
-        display: block;
+    .chatEmpty{
+        display: none;
     }
     .homeHeader .homeLogo p{
         font-family: 'Rubik';
@@ -412,5 +412,56 @@ p{
         right: 22.61vw;
         width: 250px;
         height: 350px;
+    }
+    .listFriend{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1vw;
+        width: 100%;
+        height: 12vh;
+    }
+    .friendNewChat p{
+        margin-bottom: 0 !important;
+        overflow:hidden;
+        height: auto;
+        background: transparent;
+        font-size: 14px;
+    }
+    .friendName p{
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.165px;
+        color: #232323;
+        margin-bottom: 0;
+        overflow: hidden;
+    }
+    .friendBodyChat{
+        height: 5vw;
+        margin-left:10px;
+        width: 100%;
+    }
+    .descItem{
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 3vw;
+        text-align: center;
+        letter-spacing: 0.01vw;
+        color: #232323;
+    }
+    .homeSearch{
+        margin-top: 20px;
+    }
+    .searchObjek input{
+        border: none;
+        height: 8vh !important;
+        width: 80%;
+        margin-left: 10%;
+        background-color: #FAFAFA;
+        font-size: 16px;
     }
 }

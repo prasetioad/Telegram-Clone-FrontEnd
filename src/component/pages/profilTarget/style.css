@@ -1,0 +1,37 @@
+.profTargetContainer{
+    width: 360px;
+}
+.pofTargetHeader{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.profTargetAvatar{
+    margin-top: 10px;
+}
+.profTargetAvatar img{
+    width: 82px;
+}
+.proftarget{
+    display: flex;
+    justify-content: space-between;
+}
+.phonetargetProf{
+
+}
+.targetProfLocationDll{
+    display: flex;
+    justify-content: space-around;
+}
+
+.galeryfileProfTarget{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.galeryItemProftarget{
+    margin: 3px;
+}
+.galeryItemProftarget img{
+    width: 82px;
+}
