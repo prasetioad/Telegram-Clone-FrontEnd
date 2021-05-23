@@ -48,9 +48,6 @@ npm start
 
 ## Documentation
 
-### Front End
-* https://github.com/prasetioad/Telegram-Clone-FrontEnd
-
 ### Back End
 * https://github.com/prasetioad/Telegram-Clone-BackEnd
 
