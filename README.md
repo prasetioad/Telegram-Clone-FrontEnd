@@ -36,7 +36,7 @@ REACT_APP_SOCKET_HOST = http://localhost:8080
 ``` 
 npm start 
 ```
-
+## Screenshoot
 <p float="left">
 <img src="https://user-images.githubusercontent.com/66661143/117747508-825d5700-b238-11eb-876c-8c4547f5d5ed.jpg"  height="220"> 
 <img src="https://user-images.githubusercontent.com/66661143/117747501-80939380-b238-11eb-9646-6cba5c93fcb7.png"  height="220">  
