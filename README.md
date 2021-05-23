@@ -38,10 +38,10 @@ npm start
 ```
 
 <p float="left">
-<img src="https://user-images.githubusercontent.com/66661143/117747508-825d5700-b238-11eb-876c-8c4547f5d5ed.jpg"  height="240"> 
-<img src="https://user-images.githubusercontent.com/66661143/117747501-80939380-b238-11eb-9646-6cba5c93fcb7.png"  height="240">  
-<img src="https://user-images.githubusercontent.com/66661143/117747505-81c4c080-b238-11eb-80f8-31cc413aa5c4.jpg"  height="240"> 
-<img src="https://user-images.githubusercontent.com/66661143/117747510-825d5700-b238-11eb-9b50-3b60944bc01f.jpg"  height="240">
+<img src="https://user-images.githubusercontent.com/66661143/117747508-825d5700-b238-11eb-876c-8c4547f5d5ed.jpg"  height="220"> 
+<img src="https://user-images.githubusercontent.com/66661143/117747501-80939380-b238-11eb-9646-6cba5c93fcb7.png"  height="220">  
+<img src="https://user-images.githubusercontent.com/66661143/117747505-81c4c080-b238-11eb-80f8-31cc413aa5c4.jpg"  height="220"> 
+<img src="https://user-images.githubusercontent.com/66661143/117747510-825d5700-b238-11eb-9b50-3b60944bc01f.jpg"  height="220">
 </p>
 
 ## Documentation
