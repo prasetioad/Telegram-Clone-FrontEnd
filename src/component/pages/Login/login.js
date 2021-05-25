@@ -96,7 +96,7 @@ function Login() {
                                         <FaEyeSlash style={{textAlign: 'right', fontSize: '21px'}} onClick={()=>{handleShowPass()}} /> : <FaEye style={{textAlign: 'right', fontSize: '21px'}} onClick={()=>{handleHidePass()}} />}
                                         </div>
                                 </div>
-                                <div className="loginForgot">
+                                <div className="loginForgot" onClick={()=>{ history.push('./forgot-password')}}>
                                     <p>Forgot Password?</p>
                                 </div>
                                 <Button init='Login' style={{background: 'Chetwode Blue'}} handleClick={(e)=>{onLogin(e)}}>Login</Button>
