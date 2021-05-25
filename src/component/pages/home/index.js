@@ -35,7 +35,7 @@ function Index() {
     const [newMessage, setNewMessage] = useState()
     const [temporaryChat, setTemporaryChat] = useState([])
     const setupSocket = () => {
-        const newSocket = io(`http://teletele.fwdev.online`)
+        const newSocket = io(`https://teletele.fwdev.online`)
         newSocket.on('connect', () => {
             console.log('Socket On ^_^');
         })
