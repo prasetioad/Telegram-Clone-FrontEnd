@@ -1,3 +1,13 @@
+<p align="center">
+  <a href="" rel="noopener">
+ <img height=200px src="https://user-images.githubusercontent.com/66661143/119433677-ed328600-bd40-11eb-9454-fcfe41648872.png" alt="logo"></a>
+</p>
+<div align="center">
+  
+[![made-with-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3e5e5f0e-297c-4bbe-85d7-12793c76f338/deploy-status)](https://incafe.netlify.app/)   
+</div>
+
 # Telegram chat clone
 
 Aplikasi chat realtime clone dari  telegram yang dibuat menggunakan React js , express js , sequelize dan socket io.
