@@ -10,6 +10,7 @@ import ProfTarget from '../profilTarget/index'
 import { useHistory } from 'react-router'
 import {getProfile} from '../../config/redux/action/userAction'
 import { useSelector } from 'react-redux'
+import { render } from '@testing-library/react'
 
 
 function Index() {
@@ -226,7 +227,11 @@ function Index() {
             setMainRight(true)
         }
     })
-    
+    function useForceUpdate(){
+        const [value, setValue] = useState(0); // integer state
+        return () => setValue(value => value + 1); // update the state to force render
+    }
+    const forceUpdate = useForceUpdate()
     console.log(temporaryChat)
     console.log(targetChat)
     console.log(mainRight);
@@ -234,7 +239,7 @@ function Index() {
         <div className='homeContainer'>
             <div className="homeMain" id='homeMain'>
                 {showProfil == true ?
-                <Profil me={myProfil} hideProfil={()=>handleShowProfil()} /> :
+                <Profil me={myProfil} hideProfil={()=>handleShowProfil()} update={()=>forceUpdate}/> :
                 <div className="mainLeft" id='mainLeft' >
                     <div className="mainLeftObjek">
                         <div className="homeHeader">

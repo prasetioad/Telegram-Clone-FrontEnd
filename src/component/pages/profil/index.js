@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import'./style.css'
 import { FaRegBell, FaChevronLeft, FaChartLine, FaTabletAlt, FaPencilAlt, FaCheck} from 'react-icons/fa'
 import {BsLock, BsCardText} from 'react-icons/bs'
@@ -6,7 +6,8 @@ import axios from 'axios'
 import Swal from 'sweetalert2'
 import { useHistory } from 'react-router'
 
-function Index({hideProfil, me}) {
+function Index({hideProfil, me, update}) {
+    const [state, setstate] = useState()
     const [dataUser, setDataUser] = useState({
         userName: me.userName,
         phone: me.phone
@@ -64,6 +65,7 @@ function Index({hideProfil, me}) {
         let ok = document.getElementById('ok')
         edit.style.display = 'inline'
         ok.style.display = 'none'
+        
     }
     const handlePhoneInput =()=>{
         document.getElementById('phone').removeAttribute('readonly')
@@ -89,6 +91,9 @@ function Index({hideProfil, me}) {
             })
         })
     }
+    useEffect(()=>{
+
+    })
     console.log(me);
     return (
         <div className="mainLeft profilScrol">
