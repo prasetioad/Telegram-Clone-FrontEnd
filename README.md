@@ -5,7 +5,7 @@
 <div align="center">
   
 [![made-with-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3e5e5f0e-297c-4bbe-85d7-12793c76f338/deploy-status)](https://incafe.netlify.app/)   
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3e5e5f0e-297c-4bbe-85d7-12793c76f338/deploy-status)](https://stupefied-brown-bd269c.netlify.app/login)   
 </div>
 
 # Telegram chat clone
