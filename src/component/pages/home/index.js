@@ -244,7 +244,7 @@ function Index() {
                     <div className="mainLeftObjek">
                         <div className="homeHeader">
                             <div className="homeLogo">
-                                <p>Telegram</p>
+                                <p>Telemondo</p>
                             </div>
                             <div className="homeBar">
                                 <FaBars className='icon' style={{ color: '#7E98DF', borderRadius: '16px', fontSize: '21px' }} onClick={()=>{handleSettingShow()}}/>
