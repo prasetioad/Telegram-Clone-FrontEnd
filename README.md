@@ -10,7 +10,7 @@
 
 # Telegram chat clone
 
-Aplikasi chat realtime clone dari  telegram yang dibuat menggunakan React js , express js , sequelize dan socket io.
+Telegram realtime clone chat application made using React js, express js, sequelize and socket io.
 
 ## Built with
 
