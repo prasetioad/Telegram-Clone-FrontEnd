@@ -11,6 +11,8 @@
 # Telegram chat clone
 
 Telegram realtime clone chat application made using React js, express js, sequelize and socket io.
+Here, you can chat with other person who use this aplication. This application also have notification features to notif you when message comes in.
+so, lets sign up and try the festures now!.
 
 ## Built with
 
